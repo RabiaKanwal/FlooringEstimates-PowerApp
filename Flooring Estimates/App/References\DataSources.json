@@ -1,0 +1,45 @@
+{
+  "DataSources": [
+    {
+      "Name": "FlooringEstimates",
+      "IsSampleData": false,
+      "IsWritable": true,
+      "Type": "ConnectedDataSourceInfo",
+      "DatasetName": "b!dhRIQB3ixEekisHWJi63kpP_3ntJKAFOjZa6uIPc6y1UxOO4YsmeS7RnPqg0N8Pw.01SCLNFFUKWZ2FH3XFFBDIQ6JWNYZD5WWC",
+      "TableName": "FlooringEstimates",
+      "ApiId": "/providers/microsoft.powerapps/apis/shared_excel",
+      "EncodeDataset": true,
+      "CdpRevision": {
+        "RevisionNumber": 1,
+        "BaseUrl": "/",
+        "LastChangedTimeString": "2019-10-22T17:54:03.7570000Z"
+      },
+      "DataEntityMetadataJson": {
+        "FlooringEstimates": "{\"name\":\"FlooringEstimates\",\"title\":\"FlooringEstimates\",\"x-ms-permission\":\"read-write\",\"schema\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"Name\":{\"type\":\"string\",\"x-ms-keyOrder\":0,\"x-ms-keyType\":\"none\",\"x-ms-sort\":\"none\",\"title\":\"Name\"},\"Category\":{\"type\":\"string\",\"x-ms-keyOrder\":0,\"x-ms-keyType\":\"none\",\"x-ms-sort\":\"none\",\"title\":\"Category\"},\"Price\":{\"type\":\"number\",\"format\":\"double\",\"x-ms-keyOrder\":0,\"x-ms-keyType\":\"none\",\"x-ms-sort\":\"none\",\"title\":\"Price\"},\"Image\":{\"type\":\"string\",\"format\":\"uri\",\"x-ms-media-kind\":\"image\",\"x-ms-media-base-url\":\"https://europe-002.azure-apim.net/apim/onedriveforbusiness/fd18e47b375743b488fb508f813973fc/datasets/default\",\"x-ms-media-default-folder-path\":\"/FlooringEstimates_images\",\"x-ms-keyOrder\":0,\"x-ms-keyType\":\"none\",\"x-ms-sort\":\"none\",\"title\":\"Image\"},\"Overview\":{\"type\":\"string\",\"x-ms-keyOrder\":0,\"x-ms-keyType\":\"none\",\"x-ms-sort\":\"none\",\"title\":\"Overview\"},\"__PowerAppsId__\":{\"type\":\"string\",\"x-ms-keyOrder\":1,\"x-ms-keyType\":\"primary\",\"x-ms-sort\":\"none\",\"x-ms-permission\":\"read-only\",\"title\":\"Row id\"}}}}}"
+      },
+      "ConnectedDataSourceInfoNameMapping": {
+        "__PowerAppsId__": "Row id",
+        "Category": "Category",
+        "Image": "Image",
+        "Name": "Name",
+        "Overview": "Overview",
+        "Price": "Price"
+      }
+    },
+    {
+      "Name": "CustomGallerySample",
+      "Schema": "*[SampleHeading:s, SampleImage:i, SampleText:s]",
+      "IsSampleData": true,
+      "IsWritable": false,
+      "Type": "StaticDataSourceInfo",
+      "OriginalSchema": "*[SampleHeading:s, SampleImage:i, SampleText:s]",
+      "Data": "[{\"SampleHeading\":\"Lorem ipsum 1\",\"SampleImage\":\"/ctrllib/image/images/SampleImage.svg\",\"SampleText\":\"Lorem ipsum dolor sit amet, consectetur adipiscing elit.\"},{\"SampleHeading\":\"Lorem ipsum 2\",\"SampleImage\":\"/ctrllib/image/images/SampleImage.svg\",\"SampleText\":\"Suspendisse enim metus, tincidunt quis lobortis a, fringilla dignissim neque.\"},{\"SampleHeading\":\"Lorem ipsum 3\",\"SampleImage\":\"/ctrllib/image/images/SampleImage.svg\",\"SampleText\":\"Ut pharetra a dolor ac vehicula.\"},{\"SampleHeading\":\"Lorem ipsum 4\",\"SampleImage\":\"/ctrllib/image/images/SampleImage.svg\",\"SampleText\":\"Vestibulum dui felis, fringilla nec mi sed, tristique dictum nisi.\"}]",
+      "OriginalName": "CustomGallerySample",
+      "OrderedColumnNames": [
+        "SampleImage",
+        "SampleHeading",
+        "SampleText"
+      ]
+    }
+  ]
+}
